@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* betty style doc for function main goes there */
+/* main - prints if the number is postive, negative or 0*/
+/* Return: Always 0*/
+
 int main(void)
 {
 		int n;
+	/* comment */
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 		/* your code goes there */
