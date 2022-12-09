@@ -2,8 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* main - prints if the number is postive, negative or 0*/
-/* Return: Always 0*/
+
+/* betty style doc */
+/**
+ * main - Entry point
+ *
+ *
+ *  Return: Always 0 (success)
+ */
 
 int main(void)
 {
