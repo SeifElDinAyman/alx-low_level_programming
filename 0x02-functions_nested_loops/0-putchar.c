@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <Main.h>
 /* more headers goes there */
 
 /* betty style doc */
