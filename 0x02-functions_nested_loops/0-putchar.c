@@ -1,17 +1,25 @@
-#include <Main.h>
-/* more headers goes there */
-
-/* betty style doc */
+#include "main.h"
 /**
- * main - Entry point
  *
+ * * main - print _putchar
  *
- *  Return: Always 0 (success)
- */
+ * * is written by mbah
+ *
+ * * Return: 0
+ *
+ * */
+int main(void)
 
-main(void)
 {
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 
 }
