@@ -5,15 +5,15 @@
 /* betty style doc */
 
 /**
- * main - Entry point
- *
+ * add - Entry point
+ * @a: num1
+ * @b: num2
  *  Return: Always 0 (success)
  */
-int main(void)
+int add(int a, int b)
 {
-	int n;
-
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
+	int c;
+	/*des */
+	c = a + b;
+	return (c);
 }
