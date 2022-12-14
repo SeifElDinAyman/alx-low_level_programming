@@ -9,7 +9,7 @@
  * @n: is the char to be checked
  *  Return: Always 0 (success)
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
