@@ -6,7 +6,6 @@
 /**
  * times_table - Entry point
  *
- * @n: is the char to be checked
  *  Return: Always 0 (success)
  */
 void times_table(void)
