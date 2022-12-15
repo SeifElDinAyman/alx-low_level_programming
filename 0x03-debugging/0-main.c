@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 #include <stdio.h>
 /*
  * postive_or_negative - Function
