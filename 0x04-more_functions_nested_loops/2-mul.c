@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* int mul- checks for uppercase character
+* mul - checks for uppercase character
 * @a: Variable text
 * @b: Num2
 * Return: Always 0.
