@@ -1,15 +1,13 @@
 #include "main.h"
 /**
-* print_numbes - checks for uppercase character
-* @a: Variable text
-* @b: Num2
+* print_numbers - checks for uppercase character
 * Return: Always 0.
 */
 void print_numbers(void)
 {
 	int num;
 
-	for(num = 10; num < 19; num++)
+	for (num = 48; num < 58; num++)
 	{
 		_putchar(num);
 	}
