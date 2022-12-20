@@ -8,13 +8,13 @@
 void print_array(int *a, int n)
 {
 
-	int er;
+	int counter;
 
-	for (er = 0; er < (n - 1); er++)
+	for (counter = 0; counter < (n - 1); counter++)
 	{
-		printf("%d ,", a[er]);
+		printf("%d,", a[counter]);
 	}
-	if (er == (n - 1))
+	if (counter == (n - 1))
 	{
 		printf("%d", a[n - 1]);
 	}
