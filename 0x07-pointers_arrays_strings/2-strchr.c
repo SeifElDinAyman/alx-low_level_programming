@@ -1,11 +1,10 @@
 #include"main.h"
 #define NULL
 /**
- * char _strchr - function
+ * _strchr - function
  *
- * @src: pointer
- * @dest: pointer
- * @n: counter
+ * @c: pointer
+ * @s: pointer
  * Return: (s)
  */
 char *_strchr(char *s, char c)
