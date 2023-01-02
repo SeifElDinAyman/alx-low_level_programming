@@ -1,5 +1,4 @@
 #include"main.h"
-#define NULL
 /**
  * _strchr - function
  *
@@ -13,8 +12,8 @@ char *_strchr(char *s, char c)
 
 	while (s[counter] != c)
 	{
-		NULL;
 		counter++;
+		return (0);
 	}
 	if (s[counter] == c)
 	{
