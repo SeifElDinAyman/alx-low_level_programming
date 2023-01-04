@@ -2,8 +2,7 @@
 
 /**
  * factorial - r
- * @n: number 
- *
+ * @n:number
  * Return: n
  */
 int factorial(int n)
