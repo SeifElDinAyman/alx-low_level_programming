@@ -1,35 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-
 /**
- * main - adds positive numbers
- * @argc: n args
- * @argv: arr args
- * Return: 0
+ * main - main funct
+ * @argc: param count
+ * @argv: param poiter
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
-	unsigned int i, sum, num;
+	int i, j, sum = 0;
 
-	sum = 0;
-
-	if (argc < 3)
+	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", 0);
-		return (0);
-	}
-	while (argc-- && argc > 0)
-	{
-		for (i = 0; argv[argc][i] != '\0'; i++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (!(isdigit(argv[argc][i])))
+			if (!isdigit(argv[i][j]))
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		num = atoi(argv[argc]);
-		sum += num;
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-	return (sum);
+
+	return (0);
 }
