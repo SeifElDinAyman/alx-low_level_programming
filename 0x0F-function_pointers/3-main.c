@@ -35,4 +35,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("%d\n", get_op_func(op)(no1, no2));
 		return (0);
 }
-

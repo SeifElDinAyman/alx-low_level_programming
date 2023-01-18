@@ -1,24 +1,61 @@
-#include"3-calc.h"
-#include<stdlib.h>
+#include "3-calc.h"
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 /**
-* get_op_func - fn
- * @s: sign
+ * op_add - sum
+ * @a: No1
+ * @b: No2
  *
- * Return: ptr.
+ * Return: Result
  */
-int (*get_op_func(char *s))(int, int)
+int op_add(int a, int b)
 {
-	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL},
-	};
-	int num = 0;
-
-	while (ops[num].op != NULL && *(ops[num].op) != *s)
-		num++;
-	return (ops[num].f);
+	return (a + b);
+}
+/**
+ * op_sub - minus
+ * @a: No1
+ * @b: No2
+ *
+ * Return: Result re
+ */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+/**
+ * op_mul - multiply
+ * @a: No1
+ * @b: No2
+ *
+ * Return: Result
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+/**
+ * op_div - divide
+ * @a: No1
+ * @b: No2
+ *
+ * Return: Result
+ */
+int op_div(int a, int b)
+{
+	return (a / b);
+}
+/**
+ * op_mod - mod
+ * @a: No1
+ * @b: No2
+ *
+ * Return: Result
+ */
+int op_mod(int a, int b)
+{
+	return (a % b);
 }
